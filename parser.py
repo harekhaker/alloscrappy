@@ -72,7 +72,7 @@ async def run():
         await responses
 
 
-# create_tips()
+create_tips()
 loop = asyncio.get_event_loop()
 future = asyncio.ensure_future(run())
 loop.run_until_complete(future)
